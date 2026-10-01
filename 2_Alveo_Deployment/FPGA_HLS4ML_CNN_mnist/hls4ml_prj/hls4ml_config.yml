@@ -1,0 +1,206 @@
+Backend: Vitis
+ClockPeriod: 5
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    bn_dense_0:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      ReuseFactor: 1
+      Trace: false
+    bn_dense_1:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      ReuseFactor: 1
+      Trace: false
+    conv_act_0:
+      Precision:
+        result: ufixed<6,0,RND_CONV,SAT,0>
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    conv_act_1:
+      Precision:
+        result: ufixed<6,0,RND_CONV,SAT,0>
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    conv_act_2:
+      Precision:
+        result: ufixed<6,0,RND_CONV,SAT,0>
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    dense_0:
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: fixed<6,1,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    dense_0_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    dense_1:
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: fixed<6,1,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    dense_1_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    dense_act_0:
+      Precision:
+        result: ufixed<6,0,RND_CONV,SAT,0>
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    dense_act_1:
+      Precision:
+        result: ufixed<6,0,RND_CONV,SAT,0>
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    flatten_1:
+      Precision:
+        result: auto
+      Trace: false
+    fused_convbn_0:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: fixed<6,1,TRN,WRAP,0>
+        result: auto
+        weight: fixed<6,1,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    fused_convbn_0_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    fused_convbn_1:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: fixed<6,1,TRN,WRAP,0>
+        result: auto
+        weight: fixed<6,1,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    fused_convbn_1_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    fused_convbn_2:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: fixed<6,1,TRN,WRAP,0>
+        result: auto
+        weight: fixed<6,1,TRN,WRAP,0>
+      ReuseFactor: 1
+      Trace: false
+    fused_convbn_2_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    input_2:
+      Precision:
+        result: auto
+      Trace: false
+    output_activation:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    output_dense:
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    output_dense_linear:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    pool_0:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    pool_1:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    pool_2:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_stream
+InputData: null
+KerasModel: !keras_model 'quantized_pruned_cnn_mnist/keras_model.keras'
+OutputDir: quantized_pruned_cnn_mnist
+OutputPredictions: null
+Part: xcu250-figd2104-2L-e
+ProjectName: myproject
+Stamp: 80b72998
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true

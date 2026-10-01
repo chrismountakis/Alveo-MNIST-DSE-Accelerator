@@ -1,0 +1,24 @@
+# Vitis and HLS Build Directories
+**/build_dir.*
+**/_x.hw.*
+**/.Xil/
+**/.ipcache/
+
+# OS Files
+.DS_Store
+.Rhistory
+
+# Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Apple macOS
+._*
+
+# Vitis/HLS Internal Caches
+**/.autopilot/
+**/.debug/
+*.aps
+*.funcunit
+*.app

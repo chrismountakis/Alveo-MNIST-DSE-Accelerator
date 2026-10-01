@@ -1,0 +1,8 @@
+The files in this `common/` directory (e.g., xcl2, cmdparser, oclHelper, logger, bitmap) are utility functions sourced from the Xilinx/AMD `Vitis_Accel_Examples` repository. 
+
+They are licensed under the Apache License, Version 2.0.
+Copyright (C) Xilinx, Inc. / Advanced Micro Devices, Inc.
+
+A copy of the License is included in this directory as
+LICENSE-Apache-2.0.txt, and is also available at
+    http://www.apache.org/licenses/LICENSE-2.0

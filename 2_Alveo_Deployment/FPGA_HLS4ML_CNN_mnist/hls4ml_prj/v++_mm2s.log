@@ -1,0 +1,26 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/mm2s
+	Log files: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/logs/mm2s
+INFO: [v++ 60-1548] Creating build summary session with primary output /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/mm2s.xo.compile_summary, at Tue Nov 11 07:11:02 2025
+INFO: [v++ 60-1315] Creating rulecheck session with output '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/mm2s/v++_compile_mm2s_guidance.html', at Tue Nov 11 07:11:02 2025
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2023.1
+INFO: [v++ 60-585] Compiling for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u250_gen3x16_xdma_4_1_202210_1
+INFO: [v++ 60-242] Creating kernel: 'mm2s'
+
+===>The following messages were generated while  performing high-level synthesis for kernel: mm2s Log file: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/mm2s/mm2s/vitis_hls.log :
+INFO: [v++ 204-61] Pipelining loop 'mm2s_loop'.
+INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 74, loop 'mm2s_loop'
+INFO: [v++ 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [v++ 200-789] **** Estimated Fmax: 411.00 MHz
+INFO: [v++ 60-594] Finished kernel compilation
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/mm2s/system_estimate_mm2s.xtxt
+WARNING: [v++-17-1525]  
+INFO: [v++ 60-586] Created _x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/mm2s.xo
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/mm2s.xo.compile_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 5s
+INFO: [v++ 60-1653] Closing dispatch client.

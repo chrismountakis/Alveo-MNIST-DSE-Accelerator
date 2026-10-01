@@ -1,0 +1,301 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/link
+	Log files: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xclbin.link_summary, at Tue Nov 11 12:51:47 2025
+INFO: [v++ 60-1315] Creating rulecheck session with output '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/link/v++_link_myproject_guidance.html', at Tue Nov 11 12:51:47 2025
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2023.1
+INFO: [v++ 82-4274] Default memory will be used for trace offload
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u250_gen3x16_xdma_4_1_202210_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [12:51:51] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xo --xo /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/mm2s.xo --xo /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/s2mm.xo -keep -memory-for-trace DDR[0] --config /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm --target hw --output_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int --temp_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xo
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/mm2s.xo
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/_x.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/s2mm.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [12:51:55] build_xd_ip_db started: /opt/xilinx/Vitis/2023.1/bin/build_xd_ip_db -ip_search 0  -sds-pf /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/hw.hpfm -clkid 0 -ip /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/iprepo/xilinx_com_hls_myproject_1_0,myproject -ip /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/iprepo/xilinx_com_hls_s2mm_1_0,s2mm -ip /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/iprepo/xilinx_com_hls_mm2s_1_0,mm2s -o /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [12:52:00] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 440.996 ; gain = 0.000 ; free physical = 35531 ; free virtual = 230233
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [12:52:00] cfgen started: /opt/xilinx/Vitis/2023.1/bin/cfgen  -sc mm2s_1.out:myproject_1.input_2:512 -sc myproject_1.layer23_out:s2mm_1.in:512 -sp mm2s_1.in:DDR[1] -sp s2mm_1.out:DDR[1] -dpa_mem_offload true -dmclkid 0 -r /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: mm2s, num: 1  {mm2s_1}
+INFO: [CFGEN 83-0]   kernel: myproject, num: 1  {myproject_1}
+INFO: [CFGEN 83-0]   kernel: s2mm, num: 1  {s2mm_1}
+INFO: [CFGEN 83-0] Port Specs: 
+INFO: [CFGEN 83-0]   kernel: mm2s_1, k_port: in, sptag: DDR[1]
+INFO: [CFGEN 83-0]   kernel: s2mm_1, k_port: out, sptag: DDR[1]
+INFO: [CFGEN 83-0] Stream Specs: 
+INFO: [CFGEN 83-0]   mm2s_1.out => myproject_1.input_2
+INFO: [CFGEN 83-0]   myproject_1.layer23_out => s2mm_1.in
+INFO: [SYSTEM_LINK 82-37] [12:52:06] cfgen finished successfully
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 440.996 ; gain = 0.000 ; free physical = 35539 ; free virtual = 230241
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [12:52:06] cf2bd started: /opt/xilinx/Vitis/2023.1/bin/cf2bd  --linux --trace_buffer 1024 --input_file /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/_sysl/.xsd --temp_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link --output_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int --target_bd ulp.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd ulp.bd -dn dr -dp /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [12:52:13] cf2bd finished successfully
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 440.996 ; gain = 0.000 ; free physical = 35534 ; free virtual = 230241
+INFO: [v++ 60-1441] [12:52:13] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 447.023 ; gain = 0.000 ; free physical = 35595 ; free virtual = 230302
+INFO: [v++ 60-1443] [12:52:13] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/sdsl.dat -rtd /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/cf2sw.rtd -nofilter /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/cf2sw_full.rtd -xclbin /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/xclbin_orig.xml -o /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link
+INFO: [v++ 60-1441] [12:52:20] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 447.023 ; gain = 0.000 ; free physical = 35574 ; free virtual = 230281
+INFO: [v++ 60-1443] [12:52:20] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link
+INFO: [v++ 60-1441] [12:52:20] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.46 . Memory (MB): peak = 447.023 ; gain = 0.000 ; free physical = 35560 ; free virtual = 230268
+INFO: [v++ 60-1443] [12:52:20] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f xilinx_u250_gen3x16_xdma_4_1_202210_1 -s -g --remote_ip_cache /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/.ipcache --trace_memory DDR[0] --output_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int --log_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/logs/link --report_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/link --config /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/vplConfig.ini -k /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link --no-info --iprepo /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/xo/ip_repo/xilinx_com_hls_s2mm_1_0 --iprepo /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/xo/ip_repo/xilinx_com_hls_mm2s_1_0 --iprepo /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/xo/ip_repo/xilinx_com_hls_myproject_1_0 --messageDb /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link/vpl.pb /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link
+
+****** vpl v2023.1 (64-bit)
+  **** SW Build 3860322 on 2023-05-04-06:32:48
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/kernel_info.dat'.
+INFO: [VPL 74-78] Compiler Version string: 2023.1
+INFO: [VPL 60-423]   Target device: xilinx_u250_gen3x16_xdma_4_1_202210_1
+INFO: [VPL 60-1032] Extracting hardware platform to /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/vivado/vpl/.local/hw_platform
+[12:52:34] Run vpl: Step create_project: Started
+Creating Vivado project.
+[12:52:39] Run vpl: Step create_project: Completed
+[12:52:39] Run vpl: Step create_bd: Started
+[12:53:10] Run vpl: Step create_bd: Completed
+[12:53:10] Run vpl: Step update_bd: Started
+WARNING: [VPL-1] The use of profile options turned on trace, which uses a memory resource in one SLR; however kernels or compute units could potentially be located in multiple SLRs. This may impact timing due to SLR crossing. To improve timing, please consider implementing trace memory in every SLRs used via the linker option: --profile.trace_memory <memory>:<SLR>. SLRs present on the design : SLR0 SLR1 SLR2 SLR3
+[12:53:15] Run vpl: Step update_bd: Completed
+[12:53:15] Run vpl: Step generate_target: Started
+[12:54:31] Run vpl: Step generate_target: RUNNING...
+[12:55:21] Run vpl: Step generate_target: Completed
+[12:55:21] Run vpl: Step config_hw_runs: Started
+[12:55:24] Run vpl: Step config_hw_runs: Completed
+[12:55:24] Run vpl: Step synth: Started
+[12:55:55] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[12:56:26] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[12:56:56] Block-level synthesis in progress, 1 of 3 jobs complete, 0 jobs running.
+[12:57:26] Block-level synthesis in progress, 1 of 3 jobs complete, 1 job running.
+[12:57:56] Block-level synthesis in progress, 1 of 3 jobs complete, 1 job running.
+[12:58:26] Block-level synthesis in progress, 2 of 3 jobs complete, 0 jobs running.
+[12:58:31] Run vpl: Step synth: Completed
+[12:58:31] Run vpl: Step impl: Started
+[13:08:36] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 00h 16m 13s 
+
+[13:08:36] Starting logic optimization..
+[13:09:06] Phase 1 Generate And Synthesize MIG Cores
+[13:13:08] Phase 2 Generate And Synthesize Debug Cores
+[13:15:39] Phase 3 Retarget
+[13:15:39] Phase 4 Constant propagation
+[13:15:39] Phase 5 Sweep
+[13:16:09] Phase 6 BUFG optimization
+[13:16:39] Phase 7 Shift Register Optimization
+[13:16:39] Phase 8 Post Processing Netlist
+[13:18:10] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 09m 34s 
+
+[13:18:10] Starting logic placement..
+[13:18:40] Phase 1 Placer Initialization
+[13:18:40] Phase 1.1 Placer Initialization Netlist Sorting
+[13:22:12] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[13:25:43] Phase 1.3 Build Placer Netlist Model
+[13:28:14] Phase 1.4 Constrain Clocks/Macros
+[13:28:45] Phase 2 Global Placement
+[13:28:45] Phase 2.1 Floorplanning
+[13:29:45] Phase 2.1.1 Partition Driven Placement
+[13:29:45] Phase 2.1.1.1 PBP: Partition Driven Placement
+[13:31:16] Phase 2.1.1.2 PBP: Clock Region Placement
+[13:33:18] Phase 2.1.1.3 PBP: Compute Congestion
+[13:33:18] Phase 2.1.1.4 PBP: UpdateTiming
+[13:33:48] Phase 2.1.1.5 PBP: Add part constraints
+[13:33:48] Phase 2.2 Physical Synthesis After Floorplan
+[13:34:18] Phase 2.3 Update Timing before SLR Path Opt
+[13:34:18] Phase 2.4 Post-Processing in Floorplanning
+[13:34:18] Phase 2.5 Global Placement Core
+[13:41:53] Phase 2.5.1 UpdateTiming Before Physical Synthesis
+[13:41:53] Phase 2.5.2 Physical Synthesis In Placer
+[13:47:27] Phase 3 Detail Placement
+[13:47:27] Phase 3.1 Commit Multi Column Macros
+[13:47:57] Phase 3.2 Commit Most Macros & LUTRAMs
+[13:50:29] Phase 3.3 Small Shape DP
+[13:50:29] Phase 3.3.1 Small Shape Clustering
+[13:50:59] Phase 3.3.2 Flow Legalize Slice Clusters
+[13:50:59] Phase 3.3.3 Slice Area Swap
+[13:50:59] Phase 3.3.3.1 Slice Area Swap Initial
+[13:52:30] Phase 3.4 Place Remaining
+[13:53:01] Phase 3.5 Re-assign LUT pins
+[13:54:01] Phase 3.6 Pipeline Register Optimization
+[13:54:01] Phase 3.7 Fast Optimization
+[13:55:32] Phase 4 Post Placement Optimization and Clean-Up
+[13:55:32] Phase 4.1 Post Commit Optimization
+[13:57:03] Phase 4.1.1 Post Placement Optimization
+[13:57:03] Phase 4.1.1.1 BUFG Insertion
+[13:57:03] Phase 1 Physical Synthesis Initialization
+[13:57:34] Phase 4.1.1.2 BUFG Replication
+[13:57:34] Phase 4.1.1.3 Post Placement Timing Optimization
+[14:00:36] Phase 4.1.1.4 Replication
+[14:02:37] Phase 4.2 Post Placement Cleanup
+[14:02:37] Phase 4.3 Placer Reporting
+[14:02:37] Phase 4.3.1 Print Estimated Congestion
+[14:03:08] Phase 4.4 Final Placement Cleanup
+[14:14:15] Finished 4th of 6 tasks (FPGA logic placement). Elapsed time: 00h 56m 05s 
+
+[14:14:15] Starting logic routing..
+[14:15:16] Phase 1 Build RT Design
+[14:17:48] Phase 2 Router Initialization
+[14:17:48] Phase 2.1 Fix Topology Constraints
+[14:18:18] Phase 2.2 Pre Route Cleanup
+[14:18:18] Phase 2.3 Global Clock Net Routing
+[14:19:19] Phase 2.4 Update Timing
+[14:21:20] Phase 2.5 Update Timing for Bus Skew
+[14:21:20] Phase 2.5.1 Update Timing
+[14:22:51] Phase 3 Initial Routing
+[14:22:51] Phase 3.1 Global Routing
+[14:24:22] Phase 4 Rip-up And Reroute
+[14:24:22] Phase 4.1 Global Iteration 0
+[14:34:29] Phase 4.2 Global Iteration 1
+[14:36:31] Phase 4.3 Global Iteration 2
+[14:39:02] Phase 4.4 Global Iteration 3
+[14:41:34] Phase 4.5 Global Iteration 4
+[14:43:05] Phase 4.6 Global Iteration 5
+[14:45:06] Phase 5 Delay and Skew Optimization
+[14:45:06] Phase 5.1 Delay CleanUp
+[14:45:06] Phase 5.1.1 Update Timing
+[14:45:37] Phase 5.1.2 Update Timing
+[14:46:38] Phase 5.1.3 Update Timing
+[14:47:38] Phase 5.2 Clock Skew Optimization
+[14:48:09] Phase 6 Post Hold Fix
+[14:48:09] Phase 6.1 Hold Fix Iter
+[14:48:09] Phase 6.1.1 Update Timing
+[14:49:09] Phase 7 Leaf Clock Prog Delay Opt
+[14:57:46] Phase 7.1 Delay CleanUp
+[14:57:46] Phase 7.1.1 Update Timing
+[14:58:16] Phase 7.1.2 Update Timing
+[14:59:17] Phase 7.2 Hold Fix Iter
+[14:59:17] Phase 7.2.1 Update Timing
+[15:01:49] Phase 8 Route finalize
+[15:01:49] Phase 9 Verifying routed nets
+[15:02:19] Phase 10 Depositing Routes
+[15:02:49] Phase 11 Resolve XTalk
+[15:03:20] Phase 12 Post Router Timing
+[15:03:20] Phase 12.1 Update Timing
+[15:05:21] Finished 5th of 6 tasks (FPGA routing). Elapsed time: 00h 51m 05s 
+
+[15:05:21] Starting bitstream generation..
+[15:05:21] Phase 13 Post-Route Event Processing
+Starting optional post-route physical design optimization.
+Finished optional post-route physical design optimization.
+[15:23:34] Creating bitmap...
+[15:37:44] Writing bitstream ./level0_i_level1_level1_i_ulp_my_rm_partial.bit...
+[15:37:44] Finished 6th of 6 tasks (FPGA bitstream generation). Elapsed time: 00h 32m 23s 
+Check VPL, containing 14 checks, has run: 0 errors, 1 warning violation, 1 advisory violation
+WARNING: [PROFILING-04] You did not specify more than one SLR for tracing. This could impact timing.
+ADVISORY: [AUTO-FREQ-SCALING-08] For clock clk_kernel_00_unbuffered_net, the auto scaled frequency 301.4 MHz exceeds the original specified frequency. The compiler will select the original specified frequency of 300.0 MHz.
+[15:38:49] Run vpl: Step impl: Completed
+[15:38:50] Run vpl: FINISHED. Run Status: impl Complete!
+INFO: [v++ 60-1441] [15:38:50] Run run_link: Step vpl: Completed
+Time (s): cpu = 00:01:15 ; elapsed = 02:46:30 . Memory (MB): peak = 447.023 ; gain = 0.000 ; free physical = 31757 ; free virtual = 226532
+INFO: [v++ 60-1443] [15:38:50] Run run_link: Step rtdgen: Started
+INFO: [v++ 60-1453] Command Line: rtdgen
+INFO: [v++ 60-1454] Run Directory: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link
+INFO: [v++ 60-991] clock name 'ss_ucs/aclk_kernel_00' (clock ID '0') is being mapped to clock name 'DATA_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'ss_ucs/aclk_kernel_01' (clock ID '1') is being mapped to clock name 'KERNEL_CLK' in the xclbin
+INFO: [v++ 60-1230] The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): Kernel (DATA) clock: ss_ucs/aclk_kernel_00 = 300, Kernel (KERNEL) clock: ss_ucs/aclk_kernel_01 = 500
+INFO: [v++ 60-1453] Command Line: cf2sw -force-enable-memory DDR[0] -a /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/address_map.xml -sdsl /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/sdsl.dat -xclbin /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/xclbin_orig.xml -rtd /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject.rtd -o /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject.xml
+INFO: [v++ 60-1652] Cf2sw returned exit code: 0
+INFO: [v++ 60-1441] [15:38:56] Run run_link: Step rtdgen: Completed
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 447.023 ; gain = 0.000 ; free physical = 31752 ; free virtual = 226528
+INFO: [v++ 60-1443] [15:38:56] Run run_link: Step xclbinutil: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --add-section DEBUG_IP_LAYOUT:JSON:/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/debug_ip_layout.rtd --add-section BITSTREAM:RAW:/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject.rtd --append-section :JSON:/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject_xml.rtd --add-section BUILD_METADATA:JSON:/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject_build.rtd --add-section EMBEDDED_METADATA:RAW:/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject.xml --add-section SYSTEM_METADATA:RAW:/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u250_gen3x16_xdma_4_1_202210_1 --output /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/./build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xclbin
+INFO: [v++ 60-1454] Run Directory: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link
+XRT Build Version: 2.15.225 (2023.1)
+       Build Date: 2023-05-03 10:13:19
+          Hash ID: adf27adb3cfadc6e4c41d6db814159f1329b24f3
+Creating a default 'in-memory' xclbin image.
+
+Section: 'DEBUG_IP_LAYOUT'(9) was successfully added.
+Size   : 1592 bytes
+Format : JSON
+File   : '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/debug_ip_layout.rtd'
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 52785802 bytes
+Format : RAW
+File   : '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/partial.bit'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was successfully added.
+Size   : 274 bytes
+Format : JSON
+File   : '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 4402 bytes
+Format : JSON
+File   : '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 95929 bytes
+Format : RAW
+File   : '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/myproject.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 47858 bytes
+Format : RAW
+File   : '/scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/int/systemDiagramModelSlrBaseAddress.json'
+
+Section: 'PARTITION_METADATA'(20) was successfully appended to.
+Format : JSON
+File   : 'partition_metadata'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (52955311 bytes) to the output file: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/./build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xclbin
+Leaving xclbinutil.
+INFO: [v++ 60-1441] [15:38:56] Run run_link: Step xclbinutil: Completed
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.37 . Memory (MB): peak = 447.023 ; gain = 0.000 ; free physical = 31750 ; free virtual = 226527
+INFO: [v++ 60-1443] [15:38:56] Run run_link: Step xclbinutilinfo: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --quiet --force --info /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/./build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xclbin.info --input /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/./build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xclbin
+INFO: [v++ 60-1454] Run Directory: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link
+INFO: [v++ 60-1441] [15:38:57] Run run_link: Step xclbinutilinfo: Completed
+Time (s): cpu = 00:00:00.58 ; elapsed = 00:00:00.69 . Memory (MB): peak = 447.023 ; gain = 0.000 ; free physical = 31747 ; free virtual = 226523
+INFO: [v++ 60-1443] [15:38:57] Run run_link: Step generate_sc_driver: Started
+INFO: [v++ 60-1453] Command Line: 
+INFO: [v++ 60-1454] Run Directory: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/link/run_link
+INFO: [v++ 60-1441] [15:38:57] Run run_link: Step generate_sc_driver: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 447.023 ; gain = 0.000 ; free physical = 31747 ; free virtual = 226523
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/link/system_estimate_myproject.xtxt
+INFO: [v++ 60-586] Created /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.ltx
+INFO: [v++ 60-586] Created ./build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/link/v++_link_myproject_guidance.html
+	Timing Report: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt
+	Vivado Log: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/logs/link/vivado.log
+	Steps Log File: /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/logs/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /scratch/cmountakis/FPGA_HLS4ML_CNN_mnist_nc/hls4ml_prj/build_dir.hw.xilinx_u250_gen3x16_xdma_4_1_202210_1/myproject.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 2h 47m 21s
+INFO: [v++ 60-1653] Closing dispatch client.
